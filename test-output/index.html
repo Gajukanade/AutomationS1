@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Gajanan Chikitsa\AppData\Local\Temp\testng-eclipse--1517493794\testng-customsuite.xml</span>
+                    <span>C:\Users\Gajanan Chikitsa\AppData\Local\Temp\testng-eclipse-599589459\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">12 methods, 1 failed,   11 passed</span>
+                    <span class="method-stats">12 methods, 2 failed,   10 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,6 +101,11 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
                     </span>
                     <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.FormTests" class="method navigator-link" hash-for-method="testCompleteUserJourney">testCompleteUserJourney</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="tests.FormTests" class="method navigator-link" hash-for-method="testRequiredFieldValidation">testRequiredFieldValidation</a> <!-- method navigator-link -->
@@ -123,11 +128,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="tests.FormTests" class="method navigator-link" hash-for-method="testCheckboxFunctionality">testCheckboxFunctionality</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="tests.FormTests" class="method navigator-link" hash-for-method="testCompleteUserJourney">testCompleteUserJourney</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -188,6 +188,48 @@
               <span class="class-name">tests.FormTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCompleteUserJourney">
+                  </a> <!-- testCompleteUserJourney -->
+                  <span class="method-name">testCompleteUserJourney</span>
+                  <div class="stack-trace">java.lang.AssertionError: Success message should be displayed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at tests.FormTests.testCompleteUserJourney(FormTests.java:241)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Test complete user journey)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="testRequiredFieldValidation">
@@ -254,15 +296,6 @@
                   <span class="method-name">testCheckboxFunctionality</span>
                   <em>
 (Test checkbox functionality)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testCompleteUserJourney">
-                  </a> <!-- testCompleteUserJourney -->
-                  <span class="method-name">testCompleteUserJourney</span>
-                  <em>
-(Test complete user journey)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -342,7 +375,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Gajanan Chikitsa\AppData\Local\Temp\testng-eclipse--1517493794\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Gajanan Chikitsa\AppData\Local\Temp\testng-eclipse-599589459\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -395,56 +428,56 @@ data.addRows(12);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testCompleteUserJourney')
 data.setCell(0, 2, 'tests.FormTests')
-data.setCell(0, 3, 2454);
+data.setCell(0, 3, 16017);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testSuccessfulFormSubmission')
 data.setCell(1, 2, 'tests.FormTests')
-data.setCell(1, 3, 2431);
+data.setCell(1, 3, 1022);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testDropdownFunctionality')
 data.setCell(2, 2, 'tests.FormTests')
-data.setCell(2, 3, 2012);
+data.setCell(2, 3, 781);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testFormResetFunctionality')
+data.setCell(3, 1, 'testFormWithPartialData')
 data.setCell(3, 2, 'tests.FormTests')
-data.setCell(3, 3, 1874);
+data.setCell(3, 3, 567);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testFormWithPartialData')
+data.setCell(4, 1, 'testFormResetFunctionality')
 data.setCell(4, 2, 'tests.FormTests')
-data.setCell(4, 3, 1636);
+data.setCell(4, 3, 464);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testCheckboxFunctionality')
+data.setCell(5, 1, 'testEmailValidation')
 data.setCell(5, 2, 'tests.FormTests')
-data.setCell(5, 3, 1400);
+data.setCell(5, 3, 340);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testEmailValidation')
+data.setCell(6, 1, 'testFormElementsPresence')
 data.setCell(6, 2, 'tests.FormTests')
-data.setCell(6, 3, 1175);
+data.setCell(6, 3, 302);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testAgeFieldValidation')
+data.setCell(7, 1, 'testCheckboxFunctionality')
 data.setCell(7, 2, 'tests.FormTests')
-data.setCell(7, 3, 935);
+data.setCell(7, 3, 278);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testFormElementsPresence')
+data.setCell(8, 1, 'testAgeFieldValidation')
 data.setCell(8, 2, 'tests.FormTests')
-data.setCell(8, 3, 858);
+data.setCell(8, 3, 222);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'testRadioButtonFunctionality')
 data.setCell(9, 2, 'tests.FormTests')
-data.setCell(9, 3, 547);
+data.setCell(9, 3, 206);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'testRequiredFieldValidation')
+data.setCell(10, 1, 'testTextareaFunctionality')
 data.setCell(10, 2, 'tests.FormTests')
-data.setCell(10, 3, 511);
+data.setCell(10, 3, 133);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'testTextareaFunctionality')
+data.setCell(11, 1, 'testRequiredFieldValidation')
 data.setCell(11, 2, 'tests.FormTests')
-data.setCell(11, 3, 486);
+data.setCell(11, 3, 99);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -477,105 +510,107 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setUpTest</span>
-                <span class="method-start">17618 ms</span>
+                <span class="method-start">2627 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testFormElementsPresence</span>
-                <span class="method-start">17813 ms</span>
+                <span class="method-start">2715 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUpTest</span>
-                <span class="method-start">18689 ms</span>
+                <span class="method-start">3021 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSuccessfulFormSubmission</span>
-                <span class="method-start">18862 ms</span>
+                <span class="method-start">3064 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUpTest</span>
-                <span class="method-start">21301 ms</span>
+                <span class="method-start">4089 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testRequiredFieldValidation</span>
-                <span class="method-start">21397 ms</span>
+                <span class="method-start">4133 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUpTest</span>
-                <span class="method-start">21947 ms</span>
+                <span class="method-start">4235 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testEmailValidation</span>
-                <span class="method-start">22278 ms</span>
+                <span class="method-start">4273 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUpTest</span>
-                <span class="method-start">23464 ms</span>
+                <span class="method-start">4614 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testRadioButtonFunctionality</span>
-                <span class="method-start">23666 ms</span>
+                <span class="method-start">4664 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUpTest</span>
-                <span class="method-start">24232 ms</span>
+                <span class="method-start">4872 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCheckboxFunctionality</span>
-                <span class="method-start">24496 ms</span>
+                <span class="method-start">4915 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUpTest</span>
-                <span class="method-start">25925 ms</span>
+                <span class="method-start">5194 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testDropdownFunctionality</span>
-                <span class="method-start">26075 ms</span>
+                <span class="method-start">5240 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUpTest</span>
-                <span class="method-start">28094 ms</span>
+                <span class="method-start">6025 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testFormResetFunctionality</span>
-                <span class="method-start">28213 ms</span>
+                <span class="method-start">6084 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUpTest</span>
-                <span class="method-start">30095 ms</span>
+                <span class="method-start">6549 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testAgeFieldValidation</span>
-                <span class="method-start">30231 ms</span>
+                <span class="method-start">6597 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUpTest</span>
-                <span class="method-start">31169 ms</span>
+                <span class="method-start">6822 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testTextareaFunctionality</span>
-                <span class="method-start">31300 ms</span>
+                <span class="method-start">6864 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUpTest</span>
-                <span class="method-start">31792 ms</span>
+                <span class="method-start">6998 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testCompleteUserJourney</span>
-                <span class="method-start">31911 ms</span>
+                <span class="method-start">7040 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUpTest</span>
-                <span class="method-start">34384 ms</span>
+                <span class="method-start">23060 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testFormWithPartialData</span>
-                <span class="method-start">34567 ms</span>
+                <span class="method-start">23224 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">36205 ms</span>
+                <span class="method-start">23793 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
