@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="10" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-11T14:12:00 IST" name="Default suite" finished-at="2025-06-11T14:12:17 IST" duration-ms="17121">
+    <groups>
+    </groups>
+    <test started-at="2025-06-11T14:12:00 IST" name="Default test" finished-at="2025-06-11T14:12:17 IST" duration-ms="17121">
+      <class name="tests.FormTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:00 IST" name="setUp" finished-at="2025-06-11T14:12:08 IST" duration-ms="7606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:08 IST" name="setUpTest" finished-at="2025-06-11T14:12:08 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testFormElementsPresence()[pri:1, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:08 IST" name="testFormElementsPresence" description="Verify all form elements are present and visible" finished-at="2025-06-11T14:12:08 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormElementsPresence -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:08 IST" name="setUpTest" finished-at="2025-06-11T14:12:08 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testSuccessfulFormSubmission()[pri:2, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:08 IST" name="testSuccessfulFormSubmission" description="Test successful form submission with valid data" finished-at="2025-06-11T14:12:10 IST" duration-ms="1754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulFormSubmission -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:10 IST" name="setUpTest" finished-at="2025-06-11T14:12:10 IST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testRequiredFieldValidation()[pri:3, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:10 IST" name="testRequiredFieldValidation" description="Test required field validation" finished-at="2025-06-11T14:12:10 IST" duration-ms="171" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[First name field should have error class expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: First name field should have error class expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.FormTests.testRequiredFieldValidation(FormTests.java:74)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRequiredFieldValidation -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:10 IST" name="setUpTest" finished-at="2025-06-11T14:12:11 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testEmailValidation()[pri:4, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:11 IST" name="testEmailValidation" description="Test email validation" finished-at="2025-06-11T14:12:11 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmailValidation -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:11 IST" name="setUpTest" finished-at="2025-06-11T14:12:11 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testRadioButtonFunctionality()[pri:5, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:11 IST" name="testRadioButtonFunctionality" description="Test radio button functionality" finished-at="2025-06-11T14:12:11 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRadioButtonFunctionality -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:11 IST" name="setUpTest" finished-at="2025-06-11T14:12:11 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testCheckboxFunctionality()[pri:6, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:11 IST" name="testCheckboxFunctionality" description="Test checkbox functionality" finished-at="2025-06-11T14:12:12 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckboxFunctionality -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:12 IST" name="setUpTest" finished-at="2025-06-11T14:12:12 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testDropdownFunctionality()[pri:7, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:12 IST" name="testDropdownFunctionality" description="Test dropdown functionality" finished-at="2025-06-11T14:12:13 IST" duration-ms="1241" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Selected country should be australia expected [australia] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Selected country should be australia expected [australia] but found []
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at tests.FormTests.testDropdownFunctionality(FormTests.java:153)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDropdownFunctionality -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:13 IST" name="setUpTest" finished-at="2025-06-11T14:12:13 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testFormResetFunctionality()[pri:8, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:13 IST" name="testFormResetFunctionality" description="Test form reset functionality" finished-at="2025-06-11T14:12:14 IST" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormResetFunctionality -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:14 IST" name="setUpTest" finished-at="2025-06-11T14:12:14 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testAgeFieldValidation()[pri:9, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:14 IST" name="testAgeFieldValidation" description="Test age field validation" finished-at="2025-06-11T14:12:14 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAgeFieldValidation -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:14 IST" name="setUpTest" finished-at="2025-06-11T14:12:14 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testTextareaFunctionality()[pri:10, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:14 IST" name="testTextareaFunctionality" description="Test textarea functionality" finished-at="2025-06-11T14:12:15 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTextareaFunctionality -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:15 IST" name="setUpTest" finished-at="2025-06-11T14:12:15 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testCompleteUserJourney()[pri:11, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:15 IST" name="testCompleteUserJourney" description="Test complete user journey" finished-at="2025-06-11T14:12:16 IST" duration-ms="1699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleteUserJourney -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:16 IST" name="setUpTest" finished-at="2025-06-11T14:12:17 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testFormWithPartialData()[pri:12, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:17 IST" name="testFormWithPartialData" description="Test form with partial data" finished-at="2025-06-11T14:12:17 IST" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormWithPartialData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormTests@55fe41ea]" started-at="2025-06-11T14:12:17 IST" name="tearDown" finished-at="2025-06-11T14:12:17 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FormTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
