@@ -22,13 +22,24 @@ public class BaseTest {
         WebDriverManager.chromedriver().setup();
         
         // Chrome options for better stability
+//        ChromeOptions options = new ChromeOptions();
+//        options.addArguments("--disable-blink-features=AutomationControlled");
+//        options.addArguments("--disable-extensions");
+//        options.addArguments("--no-sandbox");
+//        options.addArguments("--disable-dev-shm-usage");
+//        
+//        driver = new ChromeDriver(options);
+        
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--disable-blink-features=AutomationControlled");
-        options.addArguments("--disable-extensions");
+        options.addArguments("--headless=new"); // or "--headless" if using older versions
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-        
-        driver = new ChromeDriver(options);
+        options.addArguments("--disable-extensions");
+        options.addArguments("--disable-blink-features=AutomationControlled");
+        // ❌ Do NOT manually add "--user-data-dir"
+
+        WebDriver driver = new ChromeDriver(options);
+
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
