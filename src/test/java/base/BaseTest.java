@@ -19,14 +19,17 @@ public class BaseTest {
         // Setup ChromeDriver using WebDriverManager
         WebDriverManager.chromedriver().setup();
         
-        // Chrome options for better stability
+
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--disable-blink-features=AutomationControlled");
-        options.addArguments("--disable-extensions");
-        options.addArguments("--no-sandbox");
+        String userDataDir = System.getProperty("java.io.tmpdir") + "/chrome_user_data_" + System.currentTimeMillis();
+        options.addArguments("--user-data-dir=" + userDataDir);
+        options.addArguments("--no-sandbox"); // Optional: Add other necessary arguments
         options.addArguments("--disable-dev-shm-usage");
-        
         driver = new ChromeDriver(options);
+        
+   
+        
+//        driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
