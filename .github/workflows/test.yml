@@ -1,0 +1,26 @@
+name: Run Selenium Tests
+
+on:
+  push:
+    branches:
+      - main  # or 'master' or any other branch you want
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'  # match your Java version
+
+      - name: Set up Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Run Maven tests
+        run: mvn clean test
