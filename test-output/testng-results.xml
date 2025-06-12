@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="10" failed="2" skipped="0">
+<testng-results ignored="0" total="12" passed="9" failed="2" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-11T17:01:04 IST" name="Default suite" finished-at="2025-06-11T17:01:22 IST" duration-ms="18096">
+  <suite started-at="2025-06-11T17:14:46 IST" name="Default suite" finished-at="2025-06-11T17:14:56 IST" duration-ms="9951">
     <groups>
     </groups>
-    <test started-at="2025-06-11T17:01:04 IST" name="Default test" finished-at="2025-06-11T17:01:22 IST" duration-ms="18096">
+    <test started-at="2025-06-11T17:14:46 IST" name="Default test" finished-at="2025-06-11T17:14:56 IST" duration-ms="9951">
       <class name="tests.FormTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:04 IST" name="setUp" finished-at="2025-06-11T17:01:10 IST" duration-ms="6733" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:46 IST" name="setUp" finished-at="2025-06-11T17:14:48 IST" duration-ms="1940" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:10 IST" name="setUpTest" finished-at="2025-06-11T17:01:10 IST" duration-ms="112" status="PASS">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:48 IST" name="setUpTest" finished-at="2025-06-11T17:14:48 IST" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="testFormElementsPresence()[pri:1, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:10 IST" name="testFormElementsPresence" description="Verify all form elements are present and visible" finished-at="2025-06-11T17:01:11 IST" duration-ms="408" status="PASS">
+        <test-method signature="testFormElementsPresence()[pri:1, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:48 IST" name="testFormElementsPresence" description="Verify all form elements are present and visible" finished-at="2025-06-11T17:14:48 IST" duration-ms="343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFormElementsPresence -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:11 IST" name="setUpTest" finished-at="2025-06-11T17:01:11 IST" duration-ms="51" status="PASS">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:48 IST" name="setUpTest" finished-at="2025-06-11T17:14:48 IST" duration-ms="43" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="testSuccessfulFormSubmission()[pri:2, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:11 IST" name="testSuccessfulFormSubmission" description="Test successful form submission with valid data" finished-at="2025-06-11T17:01:12 IST" duration-ms="1428" status="PASS">
+        <test-method signature="testSuccessfulFormSubmission()[pri:2, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:48 IST" name="testSuccessfulFormSubmission" description="Test successful form submission with valid data" finished-at="2025-06-11T17:14:49 IST" duration-ms="975" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessfulFormSubmission -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:12 IST" name="setUpTest" finished-at="2025-06-11T17:01:12 IST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:49 IST" name="setUpTest" finished-at="2025-06-11T17:14:49 IST" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="testRequiredFieldValidation()[pri:3, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:12 IST" name="testRequiredFieldValidation" description="Test required field validation" finished-at="2025-06-11T17:01:13 IST" duration-ms="170" status="FAIL">
+        <test-method signature="testRequiredFieldValidation()[pri:3, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:49 IST" name="testRequiredFieldValidation" description="Test required field validation" finished-at="2025-06-11T17:14:49 IST" duration-ms="97" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[First name field should have error class expected [true] but found [false]]]>
@@ -74,47 +74,77 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRequiredFieldValidation -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:13 IST" name="setUpTest" finished-at="2025-06-11T17:01:13 IST" duration-ms="76" status="PASS">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:49 IST" name="setUpTest" finished-at="2025-06-11T17:14:49 IST" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="testEmailValidation()[pri:4, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:13 IST" name="testEmailValidation" description="Test email validation" finished-at="2025-06-11T17:01:14 IST" duration-ms="884" status="PASS">
+        <test-method signature="testEmailValidation()[pri:4, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:49 IST" name="testEmailValidation" description="Test email validation" finished-at="2025-06-11T17:14:49 IST" duration-ms="295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEmailValidation -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:14 IST" name="setUpTest" finished-at="2025-06-11T17:01:14 IST" duration-ms="142" status="PASS">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:50 IST" name="setUpTest" finished-at="2025-06-11T17:14:50 IST" duration-ms="60" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="testRadioButtonFunctionality()[pri:5, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:14 IST" name="testRadioButtonFunctionality" description="Test radio button functionality" finished-at="2025-06-11T17:01:14 IST" duration-ms="670" status="PASS">
+        <test-method signature="testRadioButtonFunctionality()[pri:5, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:50 IST" name="testRadioButtonFunctionality" description="Test radio button functionality" finished-at="2025-06-11T17:14:50 IST" duration-ms="225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRadioButtonFunctionality -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:14 IST" name="setUpTest" finished-at="2025-06-11T17:01:15 IST" duration-ms="155" status="PASS">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:50 IST" name="setUpTest" finished-at="2025-06-11T17:14:50 IST" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="testCheckboxFunctionality()[pri:6, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:15 IST" name="testCheckboxFunctionality" description="Test checkbox functionality" finished-at="2025-06-11T17:01:15 IST" duration-ms="757" status="PASS">
+        <test-method signature="testCheckboxFunctionality()[pri:6, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:50 IST" name="testCheckboxFunctionality" description="Test checkbox functionality" finished-at="2025-06-11T17:14:50 IST" duration-ms="263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckboxFunctionality -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:15 IST" name="setUpTest" finished-at="2025-06-11T17:01:15 IST" duration-ms="138" status="PASS">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:50 IST" name="setUpTest" finished-at="2025-06-11T17:14:50 IST" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="testDropdownFunctionality()[pri:7, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:15 IST" name="testDropdownFunctionality" description="Test dropdown functionality" finished-at="2025-06-11T17:01:16 IST" duration-ms="334" status="FAIL">
+        <test-method signature="testDropdownFunctionality()[pri:7, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:50 IST" name="testDropdownFunctionality" description="Test dropdown functionality" finished-at="2025-06-11T17:14:51 IST" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDropdownFunctionality -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:51 IST" name="setUpTest" finished-at="2025-06-11T17:14:51 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testFormResetFunctionality()[pri:8, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:51 IST" name="testFormResetFunctionality" description="Test form reset functionality" finished-at="2025-06-11T17:14:51 IST" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormResetFunctionality -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:51 IST" name="setUpTest" finished-at="2025-06-11T17:14:51 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testAgeFieldValidation()[pri:9, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:51 IST" name="testAgeFieldValidation" description="Test age field validation" finished-at="2025-06-11T17:14:52 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAgeFieldValidation -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:52 IST" name="setUpTest" finished-at="2025-06-11T17:14:52 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testTextareaFunctionality()[pri:10, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:52 IST" name="testTextareaFunctionality" description="Test textarea functionality" finished-at="2025-06-11T17:14:52 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTextareaFunctionality -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:52 IST" name="setUpTest" finished-at="2025-06-11T17:14:52 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testCompleteUserJourney()[pri:11, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:52 IST" name="testCompleteUserJourney" description="Test complete user journey" finished-at="2025-06-11T17:14:56 IST" duration-ms="3523" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Selected country should be india expected [india] but found []]]>
+              <![CDATA[Success message should be displayed expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Selected country should be india expected [india] but found []
+              <![CDATA[java.lang.AssertionError: Success message should be displayed expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at tests.FormTests.testDropdownFunctionality(FormTests.java:153)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at tests.FormTests.testCompleteUserJourney(FormTests.java:241)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -146,51 +176,155 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDropdownFunctionality -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:16 IST" name="setUpTest" finished-at="2025-06-11T17:01:16 IST" duration-ms="139" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpTest -->
-        <test-method signature="testFormResetFunctionality()[pri:8, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:16 IST" name="testFormResetFunctionality" description="Test form reset functionality" finished-at="2025-06-11T17:01:17 IST" duration-ms="1103" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFormResetFunctionality -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:17 IST" name="setUpTest" finished-at="2025-06-11T17:01:17 IST" duration-ms="115" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpTest -->
-        <test-method signature="testAgeFieldValidation()[pri:9, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:17 IST" name="testAgeFieldValidation" description="Test age field validation" finished-at="2025-06-11T17:01:18 IST" duration-ms="429" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAgeFieldValidation -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:18 IST" name="setUpTest" finished-at="2025-06-11T17:01:18 IST" duration-ms="63" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpTest -->
-        <test-method signature="testTextareaFunctionality()[pri:10, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:18 IST" name="testTextareaFunctionality" description="Test textarea functionality" finished-at="2025-06-11T17:01:18 IST" duration-ms="180" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTextareaFunctionality -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:18 IST" name="setUpTest" finished-at="2025-06-11T17:01:18 IST" duration-ms="125" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpTest -->
-        <test-method signature="testCompleteUserJourney()[pri:11, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:18 IST" name="testCompleteUserJourney" description="Test complete user journey" finished-at="2025-06-11T17:01:21 IST" duration-ms="2608" status="PASS">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- testCompleteUserJourney -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:21 IST" name="setUpTest" finished-at="2025-06-11T17:01:21 IST" duration-ms="97" status="PASS">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:56 IST" name="setUpTest" finished-at="2025-06-11T17:14:56 IST" duration-ms="7" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8000d9f5857f3daba435c413c6bfcf2, findElement {using=id, value=resetBtn}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\GAJANA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58766}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58766/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8000d9f5857f3daba435c413c6bfcf2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8000d9f5857f3daba435c413c6bfcf2, findElement {using=id, value=resetBtn}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\GAJANA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58766}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58766/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8000d9f5857f3daba435c413c6bfcf2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at pages.FormPage.clickReset(FormPage.java:169)
+at tests.FormTests.setUpTest(FormTests.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="testFormWithPartialData()[pri:12, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:21 IST" name="testFormWithPartialData" description="Test form with partial data" finished-at="2025-06-11T17:01:21 IST" duration-ms="703" status="PASS">
+        <test-method signature="testFormWithPartialData()[pri:12, instance:tests.FormTests@367ffa75]" started-at="2025-06-11T17:14:56 IST" name="testFormWithPartialData" description="Test form with partial data" finished-at="2025-06-11T17:14:56 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8000d9f5857f3daba435c413c6bfcf2, findElement {using=id, value=resetBtn}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\GAJANA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58766}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58766/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8000d9f5857f3daba435c413c6bfcf2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8000d9f5857f3daba435c413c6bfcf2, findElement {using=id, value=resetBtn}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\GAJANA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58766}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58766/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8000d9f5857f3daba435c413c6bfcf2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at pages.FormPage.clickReset(FormPage.java:169)
+at tests.FormTests.setUpTest(FormTests.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFormWithPartialData -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormTests@ba2f4ec]" started-at="2025-06-11T17:01:21 IST" name="tearDown" finished-at="2025-06-11T17:01:22 IST" duration-ms="244" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- tests.FormTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

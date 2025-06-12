@@ -6,9 +6,9 @@
       <class name="tests.FormTests">
         <methods>
           <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="testCompleteUserJourney"/>
           <include name="testRequiredFieldValidation"/>
-          <include name="testDropdownFunctionality"/>
+          <include name="testFormWithPartialData"/>
           <include name="setUpTest"/>
         </methods>
       </class> <!-- tests.FormTests -->
